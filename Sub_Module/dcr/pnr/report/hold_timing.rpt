@@ -1,0 +1,43 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : dcr
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 11:56:38 2026
+****************************************
+
+  Startpoint: dcr_reg_reg[3] (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: dcr_reg_reg[3] (rising edge-triggered flip-flop clocked by clock)
+  Mode: default
+  Corner: default
+  Scenario: dcr
+  Path Group: clock
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  dcr_reg_reg[3]/CK (SAEDRVT14_FDP_V2LP_0P5)       0.00      0.00 r
+  dcr_reg_reg[3]/Q (SAEDRVT14_FDP_V2LP_0P5)        0.07      0.07 f
+  U29/X (SAEDRVT14_AO22_0P5)                       0.03      0.10 f
+  dcr_reg_reg[3]/D (SAEDRVT14_FDP_V2LP_0P5)        0.00      0.10 f
+  data arrival time                                          0.10
+
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  dcr_reg_reg[3]/CK (SAEDRVT14_FDP_V2LP_0P5)       0.00      0.00 r
+  library hold time                                0.00      0.00
+  data required time                                         0.00
+  ------------------------------------------------------------------------
+  data required time                                         0.00
+  data arrival time                                         -0.10
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.10
+
+
+1

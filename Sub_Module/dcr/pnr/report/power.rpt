@@ -1,0 +1,62 @@
+****************************************
+Report : power
+        -significant_digits 2
+Design : dcr
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 11:56:38 2026
+****************************************
+Information: Activity for scenario dcr was cached, no propagation required. (POW-005)
+Mode: default
+Corner: default
+Scenario: dcr
+Voltage: 0.72
+Temperature: 25.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell dcr_reg_reg[6] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000114 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell dcr_reg_reg[3] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000057 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell dcr_reg_reg[1] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000134 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell dcr_reg_reg[7] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000114 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell dcr_reg_reg[0] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000134 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell dcr_reg_reg[6] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000114 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell dcr_reg_reg[3] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000057 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell dcr_reg_reg[1] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000134 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell dcr_reg_reg[7] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000114 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell dcr_reg_reg[0] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000134 (POW-046)
+
+  Cell Internal Power    = 1.20e+07 pW ( 96.1%)
+  Net Switching Power    = 4.89e+05 pW (  3.9%)
+Total Dynamic Power      = 1.25e+07 pW (100.0%)
+
+Cell Leakage Power       = 3.80e+02 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+memory                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+black_box                 0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+clock_network             1.12e+07               0.00e+00               0.00e+00               1.12e+07    ( 89.7%)        i
+register                  5.46e+05               1.46e+05               2.76e+02               6.92e+05    (  5.5%)         
+sequential                0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+combinational             2.48e+05               3.43e+05               1.04e+02               5.92e+05    (  4.7%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     1.20e+07 pW            4.89e+05 pW            3.80e+02 pW            1.25e+07 pW
+1
