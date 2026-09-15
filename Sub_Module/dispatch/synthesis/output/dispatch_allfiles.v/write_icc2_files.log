@@ -1,0 +1,15 @@
+Writing verilog file '/home1/PD09/RanjithKC/Tiny_GPU/submodule/dispatch/synthesis/output/dispatch_allfiles.v/dispatch.v'.
+1
+1
+1
+Information: No Scenarios exist, writing data for one virtual_scenario
+Information: Creating directory ../output/dispatch_allfiles.v/dispatch.MCMM
+Information: The default DEF output is in version 5.8. (DCT-320)
+Warning: Failed to find cell expansion data in current design.  (PSYN-1240)
+0
+Information: Writing COMPONENTS section (DDEFW-014)
+Information: Completed COMPONENTS section  (DDEFW-016)
+Information: Writing PINS section (DDEFW-014)
+Information: Completed PINS section  (DDEFW-016)
+Information: No groups were written. (RPGP-018)
+1

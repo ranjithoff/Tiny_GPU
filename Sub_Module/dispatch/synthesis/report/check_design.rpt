@@ -1,0 +1,25 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP4
+Date:        Mon Jul  6 11:15:51 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                               11
+    Unloaded nets (LINT-2)                                         11
+--------------------------------------------------------------------------------
+
+Warning: In design 'dispatch', net 'net57' driven by pin 'sub_32/Z_0' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net56' driven by pin 'sub_32/Z_1' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net55' driven by pin 'C807/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net54' driven by pin 'C803/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net53' driven by pin 'C799/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net52' driven by pin 'C795/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net51' driven by pin 'C791/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net50' driven by pin 'C782/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net49' driven by pin 'C773/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net48' driven by pin 'C764/Z' has no loads. (LINT-2)
+Warning: In design 'dispatch', net 'net47' driven by pin 'C810/Z' has no loads. (LINT-2)
+1

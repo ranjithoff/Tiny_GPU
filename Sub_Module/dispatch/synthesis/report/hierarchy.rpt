@@ -1,0 +1,95 @@
+ 
+****************************************
+Report : hierarchy
+Design : dispatch
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 11:21:20 2026
+****************************************
+
+Attributes:
+    r - licensed design
+
+dispatch           r
+    SAEDRVT14_AN2_1                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AN2_8                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AN2_MM_1             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AO21_1               saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AOI21_0P75           saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AOI21_1              saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AOI21_1P5            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_BUF_1                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_EN3_1                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_EO2_1                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_EO2_V1_1P5           saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_FDP_V2LP_0P5         saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_FDP_V2_0P5           saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_INV_2                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_INV_S_0P5            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_INV_S_1              saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_INV_S_1P5            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_MUXI2_U_0P5          saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND2_1                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND2_8                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND2_CDC_1            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND2_CDC_4            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND2_MM_1             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND2_MM_2             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_ND3_4                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_NR2_MM_1             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_NR2_MM_3             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_NR2_MM_4             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_NR2_MM_8             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_NR2_MM_16            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OA31_1               saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OAI21_0P5            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OAI21_3              saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OAI21_V1_4           saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OAI22_0P5            saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OAI22_0P75           saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OAI22_1              saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OR2_0P75             saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OR2_4                saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_OR3_0P5              saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_TIE0_V1_2            saed14rvt_base_ss0p72v25c
+                                                 0.72
+1
