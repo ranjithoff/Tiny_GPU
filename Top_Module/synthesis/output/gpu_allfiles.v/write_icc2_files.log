@@ -1,0 +1,34 @@
+Writing verilog file '/home1/PD09/RanjithKC/Tiny_GPU/topmodule/synthesis/output/gpu_allfiles.v/gpu.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Information: No Scenarios exist, writing data for one virtual_scenario
+Information: Creating directory ../output/gpu_allfiles.v/gpu.MCMM
+Information: The default DEF output is in version 5.8. (DCT-320)
+Warning: Verilog writer has added 1 nets to module core_DATA_MEM_ADDR_BITS8_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8_PROGRAM_MEM_DATA_BITS16_THREADS_PER_BLOCK4_3 using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Warning: Failed to find cell expansion data in current design.  (PSYN-1240)
+0
+Warning: Verilog writer has added 1 nets to module core_DATA_MEM_ADDR_BITS8_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8_PROGRAM_MEM_DATA_BITS16_THREADS_PER_BLOCK4_2 using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Warning: Verilog writer has added 1 nets to module core_DATA_MEM_ADDR_BITS8_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8_PROGRAM_MEM_DATA_BITS16_THREADS_PER_BLOCK4_1 using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Information: Writing COMPONENTS section (DDEFW-014)
+1
+Warning: Verilog writer has added 1 nets to module core_DATA_MEM_ADDR_BITS8_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8_PROGRAM_MEM_DATA_BITS16_THREADS_PER_BLOCK4_0 using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Information: Completed COMPONENTS section  (DDEFW-016)
+Information: Writing PINS section (DDEFW-014)
+Warning: Changed wire name clk to clk_snps_wire in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name reset to reset_snps_wire in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name start to start_snps_wire in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name done to done_snps_wire in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_write_enable to device_control_write_enable_snps_wire in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[7] to device_control_data_7 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[6] to device_control_data_6 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[5] to device_control_data_5 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[4] to device_control_data_4 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Information: Completed PINS section  (DDEFW-016)
+Warning: Changed wire name device_control_data[3] to device_control_data_3 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[2] to device_control_data_2 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[1] to device_control_data_1 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name device_control_data[0] to device_control_data_0 in module gpu.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Information: No groups were written. (RPGP-018)
+Warning: Verilog writer has added 8 nets to module gpu using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+1
+1
