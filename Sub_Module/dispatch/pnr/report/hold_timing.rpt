@@ -1,0 +1,43 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : dispatch
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 12:07:21 2026
+****************************************
+
+  Startpoint: blocks_done_reg[7] (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: blocks_done_reg[7] (rising edge-triggered flip-flop clocked by clock)
+  Mode: default
+  Corner: default
+  Scenario: dispatch
+  Path Group: clock
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  blocks_done_reg[7]/CK (SAEDRVT14_FDP_V2LP_0P5)   0.00      0.00 r
+  blocks_done_reg[7]/QN (SAEDRVT14_FDP_V2LP_0P5)   0.06      0.06 r
+  U388/X (SAEDRVT14_OAI22_0P5)                     0.02      0.08 f
+  blocks_done_reg[7]/D (SAEDRVT14_FDP_V2LP_0P5)    0.00      0.08 f
+  data arrival time                                          0.08
+
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  blocks_done_reg[7]/CK (SAEDRVT14_FDP_V2LP_0P5)   0.00      0.00 r
+  library hold time                                0.00      0.00
+  data required time                                         0.00
+  ------------------------------------------------------------------------
+  data required time                                         0.00
+  data arrival time                                         -0.08
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.08
+
+
+1

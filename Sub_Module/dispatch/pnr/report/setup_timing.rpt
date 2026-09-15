@@ -1,0 +1,56 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : dispatch
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 12:07:21 2026
+****************************************
+
+  Startpoint: blocks_dispatched_reg[4] (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: blocks_dispatched_reg[5] (rising edge-triggered flip-flop clocked by clock)
+  Mode: default
+  Corner: default
+  Scenario: dispatch
+  Path Group: clock
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  blocks_dispatched_reg[4]/CK (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00      0.00 r
+  blocks_dispatched_reg[4]/Q (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.07      0.07 r
+  U193/X (SAEDRVT14_INV_0P5)                       0.05      0.12 f
+  U194/X (SAEDRVT14_OAI21_0P5)                     0.03      0.15 r
+  U195/X (SAEDRVT14_NR2_MM_0P5)                    0.03      0.18 f
+  ctmTdsLR_1_31/X (SAEDRVT14_ND2B_U_0P5)           0.03      0.21 f
+  U218/X (SAEDRVT14_NR2_MM_0P5)                    0.02      0.24 r
+  U240/X (SAEDRVT14_OAI21_0P5)                     0.04      0.27 f
+  ctmTdsLR_1_45/X (SAEDRVT14_OA21_1)               0.06      0.33 f
+  U273/X (SAEDRVT14_NR2_MM_0P5)                    0.10      0.43 r
+  U441/X (SAEDRVT14_NR2_MM_0P5)                    0.05      0.48 f
+  U444/X (SAEDRVT14_OAI22_0P5)                     0.03      0.51 r
+  blocks_dispatched_reg[5]/D (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00      0.51 r
+  data arrival time                                          0.51
+
+  clock clock (rise edge)                          1.00      1.00
+  clock network delay (propagated)                 0.00      1.00
+  blocks_dispatched_reg[5]/CK (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00      1.00 r
+  library setup time                              -0.03      0.97
+  data required time                                         0.97
+  ------------------------------------------------------------------------
+  data required time                                         0.97
+  data arrival time                                         -0.51
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.45
+
+
+1

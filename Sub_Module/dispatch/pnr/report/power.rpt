@@ -1,0 +1,70 @@
+****************************************
+Report : power
+        -significant_digits 2
+Design : dispatch
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 12:07:21 2026
+****************************************
+Information: Activity for scenario dispatch was cached, no propagation required. (POW-005)
+Mode: default
+Corner: default
+Scenario: dispatch
+Voltage: 0.72
+Temperature: 25.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell core_thread_count_reg[0][0] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000669 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell done_reg for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000593 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell core_thread_count_reg[3][1] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000530 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell core_thread_count_reg[0][0] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000938 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell core_thread_count_reg[3][1] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000607 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell start_latch_reg for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000682 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell start_latch_reg for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000878 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell core_block_id_reg[0][4] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.104800, value = 0.000000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell core_start_reg[0] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000973 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell core_reset_reg[0] for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000973 (POW-046)
+Warning: Fall toggles on pin core_block_id_reg[3][5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin blocks_dispatched_reg[5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin blocks_done_reg[6]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin blocks_dispatched_reg[6]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin blocks_done_reg[5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin core_block_id_reg[2][5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin core_block_id_reg[1][5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin core_block_id_reg[0][5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+
+  Cell Internal Power    = 9.28e+07 pW ( 89.2%)
+  Net Switching Power    = 1.12e+07 pW ( 10.8%)
+Total Dynamic Power      = 1.04e+08 pW (100.0%)
+
+Cell Leakage Power       = 1.47e+04 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+memory                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+black_box                 0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+clock_network             8.53e+07               0.00e+00               0.00e+00               8.53e+07    ( 82.0%)        i
+register                  2.75e+06               1.69e+06               2.11e+03               4.45e+06    (  4.3%)         
+sequential                0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+combinational             4.77e+06               9.54e+06               1.26e+04               1.43e+07    ( 13.8%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     9.28e+07 pW            1.12e+07 pW            1.47e+04 pW            1.04e+08 pW
+1
