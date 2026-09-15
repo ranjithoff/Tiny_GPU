@@ -1,0 +1,54 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : gpu
+Version: T-2022.03-SP4
+Date   : Tue Jul  7 12:22:09 2026
+****************************************
+
+  Startpoint: lsu_read_address_reg[14][1] (rising edge-triggered flip-flop clocked by func_clock)
+  Endpoint: lsu_read_data_reg[14][7] (rising edge-triggered flip-flop clocked by func_clock)
+  Mode: func
+  Corner: ss0p585v25c
+  Scenario: func.ss0p585v25c
+  Path Group: func_clock
+  Path Type: min
+
+  Point                                             Incr         Path  
+  ------------------------------------------------------------------------------
+  clock func_clock (rise edge)                     0.00000      0.00000
+  clock network delay (propagated)                 0.31414      0.31414
+
+  lsu_read_address_reg[14][1]/CK (SAEDLVT14_LSRDPQ_1)
+                                                   0.00000      0.31414 r
+  lsu_read_address_reg[14][1]/Q (SAEDLVT14_LSRDPQ_1)
+                                                   0.05390      0.36804 f
+  ctmTdsLR_1_30530/X (SAEDLVT14_NR2B_4)            0.04381      0.41185 f
+  gre_h_inst_51587/X (SAEDRVT14_BUF_4)             0.03189      0.44374 f
+  U15619/X (SAEDLVT14_ND2_5)                       0.02552      0.46926 r
+  U29845/X (SAEDRVT14_OAI22_0P5)                   0.04009      0.50936 f
+  U29849/X (SAEDRVT14_OR4_1)                       0.07725      0.58661 f
+  U29851/X (SAEDLVT14_AO222_U_0P5)                 0.03578      0.62239 f
+  ropt_h_inst_51916/X (SAEDLVT14_BUF_S_0P75)       0.01513      0.63751 f
+  ropt_h_inst_51917/X (SAEDLVT14_BUF_S_2)          0.01825      0.65577 f
+  lsu_read_data_reg[14][7]/D (SAEDRVT14_FDP_V2LP_2)
+                                                   0.00011      0.65588 f
+  data arrival time                                             0.65588
+
+  clock func_clock (rise edge)                     0.00000      0.00000
+  clock network delay (propagated)                 0.63192      0.63192
+  lsu_read_data_reg[14][7]/CK (SAEDRVT14_FDP_V2LP_2)
+                                                   0.00000      0.63192 r
+  library hold time                                0.05062      0.68255
+  data required time                                            0.68255
+  ------------------------------------------------------------------------------
+  data required time                                            0.68255
+  data arrival time                                            -0.65588
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.02667
+
+
+1

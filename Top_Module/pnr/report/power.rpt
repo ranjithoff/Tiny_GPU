@@ -1,0 +1,96 @@
+****************************************
+Report : power
+        -significant_digits 5
+Design : gpu
+Version: T-2022.03-SP4
+Date   : Tue Jul  7 12:22:09 2026
+****************************************
+Information: Activity propagation will be performed for scenario func.ss0p585v25c.
+Information: Doing activity propagation for mode 'func' and corner 'ss0p585v25c' with effort level 'medium'. (POW-024)
+Information: Timer-derived activity data is cached on scenario func.ss0p585v25c (POW-052)
+[SelfGate Info]: Self-gate aware power analysis is turned on.
+Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
+Information: Turn on parallel simulation of generator nets.
+Information: Running switching activity propagation with 16 threads!
+
+ **** Information : No. of simulation cycles = 7 ****
+Mode: func
+Corner: ss0p585v25c
+Scenario: func.ss0p585v25c
+Voltage: 0.58500
+Temperature: 25.00000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+dcr_instance/VDD (power) probability 1.00000 (default)
+dcr_instance/VSS (ground) probability 1.00000 (default)
+dispatch_instance/VDD (power) probability 1.00000 (default)
+dispatch_instance/VSS (ground) probability 1.00000 (default)
+VDDH (power) probability 1.00000 (default)
+VDD (power) probability 1.00000 (default)
+VSS (ground) probability 1.00000 (default)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell U30058 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.025430, value = 0.000621 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell data_memory_controller/clk_gate_consumer_read_data_reg[15]/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.130997 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell U29417 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.025430, value = 0.000655 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell U30460 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.025430, value = 0.000484 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell data_memory_controller/clk_gate_consumer_read_data_reg[14]/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.130844 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell data_memory_controller/clk_gate_consumer_read_data_reg[13]/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.131073 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell U30462 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.025430, value = 0.000809 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell U30063 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.025430, value = 0.000523 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell data_memory_controller/clk_gate_consumer_read_data_reg[12]/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.130997 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CK on cell data_memory_controller/clk_gate_consumer_read_data_reg[11]/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.130997 (POW-046)
+Warning: Fall toggles on pin cache_mem_read_address_reg[4][6]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_read_address_reg[4][5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_read_address_reg[4][0]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_write_address_reg[6][7]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_write_address_reg[6][6]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_write_address_reg[8][7]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_write_address_reg[8][6]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_write_address_reg[8][3]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_read_address_reg[10][7]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin cache_mem_write_address_reg[2][5]/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILLP2!x2647080y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2650040y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2657440y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2658180y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2658920y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILLP2!x2674460y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2677420y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2678160y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2678900y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Warning: While computing leakage for instance 'data_memory_controller/xofiller!SAEDRVT14_FILL1!x2701100y1366000', mismatches in operating condition settings have been found in the design. (POW-039)
+Note - message 'POW-039' limit (10) exceeded. Remainder will be suppressed.
+
+  Cell Internal Power    = 2.60141e+09 pW ( 47.3%)
+  Net Switching Power    = 2.89803e+09 pW ( 52.7%)
+Total Dynamic Power      = 5.49945e+09 pW (100.0%)
+
+Cell Leakage Power       = 3.84529e+06 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                 0.00000e+00            0.00000e+00            0.00000e+00            0.00000e+00    (  0.0%)         
+memory                 0.00000e+00            0.00000e+00            0.00000e+00            0.00000e+00    (  0.0%)         
+black_box              0.00000e+00            0.00000e+00            0.00000e+00            0.00000e+00    (  0.0%)         
+clock_network          2.48383e+09            1.54746e+09            8.41538e+04            4.03137e+09    ( 73.3%)        i
+register               2.99114e+07            2.66915e+07            4.07212e+05            5.70101e+07    (  1.0%)         
+sequential             0.00000e+00            0.00000e+00            0.00000e+00            0.00000e+00    (  0.0%)         
+combinational          8.76725e+07            1.32389e+09            3.35392e+06            1.41491e+09    ( 25.7%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                  2.60141e+09 pW         2.89803e+09 pW         3.84529e+06 pW         5.50329e+09 pW
+1

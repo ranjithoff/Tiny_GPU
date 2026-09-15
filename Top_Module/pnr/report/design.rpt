@@ -1,0 +1,62 @@
+****************************************
+Report : design
+Design : gpu
+Version: T-2022.03-SP4
+Date   : Tue Jul  7 12:22:08 2026
+****************************************
+
+Total number of std cells in library : 1830
+Total number of dont_use lib cells   : 152
+Total number of dont_touch lib cells : 14
+Total number of buffers              : 166
+Total number of inverters            : 98
+Total number of flip-flops           : 304
+Total number of latches              : 86
+Total number of ICGs                 : 54
+
+Cell Instance Type  Count         Area
+--------------------------------------
+TOTAL LEAF CELLS    56562  23186.48200
+Standard cells      42983  20874.26040
+Hard macro cells        2    417.09640
+Soft macro cells        0      0.00000
+Always on cells         0      0.00000
+Physical only       13577   1895.12520
+Fixed cells             2    417.09640
+Moveable cells      56560  22769.38560
+Sequential           5548   5235.38160
+Buffer/inverter      7195   5097.47520
+ICG cells             627    512.64240
+
+Logic Hierarchies                    : 545
+Design Masters count                 : 656
+Total Flat nets count                : 43675
+Total FloatingNets count             : 291
+Total no of Ports                    : 186
+Number of Master Clocks in design    : 2
+Number of Generated Clocks in design : 0
+Number of Path Groups in design      : 14 (2 of them Non Default)
+Number of Scan Chains in design      : 0
+List of Modes                        : func, test
+List of Corners                      : ss0p585v25c
+List of Scenarios                    : func.ss0p585v25c, test.ss0p585v25c
+
+Core Area                            : 40492.80000
+Chip Area                            : 51691.84000
+Total Site Row Area                  : 40492.800
+Number of Blockages                  : 0
+Total area of Blockages              : 0.000
+Number of Power Domains              : 2
+Number of Voltage Areas              : 2
+Number of Group Bounds               : 0
+Number of Exclusive MoveBounds       : 0
+Number of Hard or Soft MoveBounds    : 0
+Number of Multibit Registers         : 0
+Number of Multibit LS/ISO Cells      : 0
+Number of Top Level RP Groups        : 0
+Number of Tech Layers                : 66 (57 of them have unknown routing dir.)
+
+Total wire length                    : 544042.19300 micron
+Total number of wires                : 463451
+Total number of contacts             : 477690
+1

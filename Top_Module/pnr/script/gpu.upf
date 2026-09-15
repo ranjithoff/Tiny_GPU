@@ -1,0 +1,28 @@
+reset_upf
+
+load_upf ../../../submodule/dcr/pnr/script/dcr.upf -scope dcr_instance
+load_upf ../../../submodule/dispatch/pnr/script/dispatch.upf -scope dispatch_instance
+
+create_supply_net VDDH 
+create_supply_net VDD   
+create_supply_net VSS   
+
+create_supply_set ss_low -function {power VDDH} -function {ground VSS}
+create_supply_set ss_high -function {power VDD} -function {ground VSS}
+
+create_power_domain low -supply {primary ss_low}
+create_power_domain high -elements {data_memory_controller program_memory_controller} -supply {primary ss_high} 
+
+create_supply_port VDDH  -domain low -direction in
+create_supply_port VSS  -domain low -direction in
+create_supply_port VDD  -domain high -direction in
+
+connect_supply_net VDDH -ports VDDH 
+connect_supply_net VDD -ports {VDD dcr_instance/VDD dispatch_instance/VDD}
+connect_supply_net VSS -ports {VSS dcr_instance/VSS dispatch_instance/VSS}
+
+set_level_shifter ls_out -domain high -applies_to outputs -rule high_to_low -location parent
+set_level_shifter ls_in -domain high -applies_to inputs -rule low_to_high -location self
+
+#set_level_shifter lls_out -domain low -applies_to outputs -rule low_to_high -location parent
+#set_level_shifter lls_in -domain low -applies_to inputs -rule high_to_low -location self

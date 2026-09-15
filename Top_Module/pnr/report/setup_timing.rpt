@@ -1,0 +1,68 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : gpu
+Version: T-2022.03-SP4
+Date   : Tue Jul  7 12:22:09 2026
+****************************************
+
+  Startpoint: lsu_read_address_reg[12][2] (rising edge-triggered flip-flop clocked by func_clock)
+  Endpoint: cache_valid_reg[0] (rising edge-triggered flip-flop clocked by func_clock)
+  Mode: func
+  Corner: ss0p585v25c
+  Scenario: func.ss0p585v25c
+  Path Group: func_clock
+  Path Type: max
+
+  Point                                             Incr         Path  
+  ------------------------------------------------------------------------------
+  clock func_clock (rise edge)                     0.00000      0.00000
+  clock network delay (propagated)                 0.34225      0.34225
+
+  lsu_read_address_reg[12][2]/CK (SAEDLVT14_LSRDPQ_1)
+                                                   0.00000      0.34225 r
+  lsu_read_address_reg[12][2]/Q (SAEDLVT14_LSRDPQ_1)
+                                                   0.04934      0.39160 f
+  ZBUF_38_inst_8242/X (SAEDRVT14_BUF_S_12)         0.05226      0.44386 f
+  U13069/X (SAEDRVT14_INV_S_8)                     0.04160      0.48546 r
+  U14791/X (SAEDLVT14_ND2_1P5)                     0.06676      0.55222 f
+  ctmTdsLR_1_31062/X (SAEDLVT14_OAI22_0P5)         0.05144      0.60366 r
+  ctmTdsLR_2_31063/X (SAEDLVT14_OA21B_1)           0.02707      0.63072 f
+  ctmTdsLR_1_8611/X (SAEDLVT14_OA21_U_0P5)         0.02907      0.65979 f
+  ctmTdsLR_2_46208/X (SAEDLVT14_INV_S_1P5)         0.01001      0.66980 r
+  ctmTdsLR_1_46207/X (SAEDLVT14_OAI21_1)           0.02375      0.69355 f
+  ctmTdsLR_2_45946/X (SAEDLVT14_NR2_MM_1)          0.02010      0.71365 r
+  ctmTdsLR_1_45945/X (SAEDLVT14_ND2_MM_1)          0.01688      0.73053 f
+  ctmTdsLR_1_8983/X (SAEDLVT14_NR2_MM_4)           0.01383      0.74436 r
+  ctmTdsLR_2_45528/X (SAEDLVT14_ND2_CDC_4)         0.01259      0.75695 f
+  ctmTdsLR_2_46388/X (SAEDLVT14_ND2_MM_2)          0.01215      0.76910 r
+  ctmTdsLR_1_46387/X (SAEDLVT14_OR2_MM_8)          0.02502      0.79412 r
+  ZBUF_20_inst_42990/X (SAEDLVT14_BUF_4)           0.01713      0.81125 r
+  ctmTdsLR_1_9391/X (SAEDLVT14_NR2_MM_6)           0.01051      0.82176 f
+  U20009/X (SAEDLVT14_AN2_4)                       0.02399      0.84576 f
+  ctmTdsLR_1_45447/X (SAEDLVT14_OR2_4)             0.02045      0.86620 f
+  ctmTdsLR_1_29988/X (SAEDLVT14_NR2_4)             0.01066      0.87687 r
+  U25062/X (SAEDLVT14_INV_S_4)                     0.01055      0.88741 f
+  U20166/X (SAEDLVT14_NR2_MM_8)                    0.01055      0.89796 r
+  ctmTdsLR_1_30142/X (SAEDLVT14_ND2_MM_10)         0.01141      0.90937 f
+  ctmTdsLR_1_45557/X (SAEDLVT14_MUXI2_B_1)         0.01192      0.92129 r
+  cache_valid_reg[0]/D (SAEDLVT14_FDP_V2LP_0P5)    0.00000      0.92129 r
+  data arrival time                                             0.92129
+
+  clock func_clock (rise edge)                     1.00000      1.00000
+  clock network delay (propagated)                 0.16478      1.16478
+  cache_valid_reg[0]/CK (SAEDLVT14_FDP_V2LP_0P5)   0.00000      1.16478 r
+  clock uncertainty                               -0.30000      0.86478
+  library setup time                               0.00911      0.87389
+  data required time                                            0.87388
+  ------------------------------------------------------------------------------
+  data required time                                            0.87388
+  data arrival time                                            -0.92129
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.04741
+
+
+1
