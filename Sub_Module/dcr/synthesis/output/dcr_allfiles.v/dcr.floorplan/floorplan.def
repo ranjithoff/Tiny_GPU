@@ -1,0 +1,83 @@
+# 
+# SNPS write_def
+# Release      : T-2022.03-SP4
+# User Name    : RanjithK
+# Date         : Mon Jul  6 11:14:32 2026
+# 
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN dcr ;
+TECHNOLOGY saed14rvt_1p9m ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 4588 4800 ) ;
+ROW ROW_0 unit 0 0 N DO 62 BY 1 STEP 74 0 ;
+ROW ROW_1 unit 0 600 FS DO 62 BY 1 STEP 74 0 ;
+ROW ROW_2 unit 0 1200 N DO 62 BY 1 STEP 74 0 ;
+ROW ROW_3 unit 0 1800 FS DO 62 BY 1 STEP 74 0 ;
+ROW ROW_4 unit 0 2400 N DO 62 BY 1 STEP 74 0 ;
+ROW ROW_5 unit 0 3000 FS DO 62 BY 1 STEP 74 0 ;
+ROW ROW_6 unit 0 3600 N DO 62 BY 1 STEP 74 0 ;
+ROW ROW_7 unit 0 4200 FS DO 62 BY 1 STEP 74 0 ;
+TRACKS X 37 DO 62 STEP 74 LAYER M1 ;
+TRACKS Y 30 DO 80 STEP 60 LAYER M1 ;
+TRACKS Y 30 DO 80 STEP 60 LAYER M2 ;
+TRACKS X 37 DO 62 STEP 74 LAYER M2 ;
+TRACKS X 37 DO 62 STEP 74 LAYER M3 ;
+TRACKS Y 30 DO 80 STEP 60 LAYER M3 ;
+TRACKS Y 50 DO 48 STEP 100 LAYER M4 ;
+TRACKS X 37 DO 62 STEP 74 LAYER M4 ;
+TRACKS X 50 DO 46 STEP 100 LAYER M5 ;
+TRACKS Y 50 DO 48 STEP 100 LAYER M5 ;
+TRACKS Y 50 DO 48 STEP 100 LAYER M6 ;
+TRACKS X 50 DO 46 STEP 100 LAYER M6 ;
+TRACKS X 50 DO 46 STEP 100 LAYER M7 ;
+TRACKS Y 50 DO 48 STEP 100 LAYER M7 ;
+TRACKS Y 50 DO 48 STEP 100 LAYER M8 ;
+TRACKS X 50 DO 46 STEP 100 LAYER M8 ;
+TRACKS X 50 DO 46 STEP 100 LAYER M9 ;
+TRACKS Y 50 DO 48 STEP 100 LAYER M9 ;
+TRACKS Y 2000 DO 1 STEP 4000 LAYER MRDL ;
+TRACKS X 50 DO 46 STEP 100 LAYER MRDL ;
+COMPONENTS 18 ;      
+ - dcr_reg_reg\[7\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[6\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[5\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[4\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[3\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[2\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[1\] SAEDRVT14_FDP_V2_0P5 ;
+ - dcr_reg_reg\[0\] SAEDRVT14_FDP_V2_0P5 ;
+ - U22 SAEDRVT14_AN2B_MM_1 ;
+ - U23 SAEDRVT14_NR2_MM_1 ;
+ - U24 SAEDRVT14_AO22_0P75 ;
+ - U25 SAEDRVT14_AO22_0P75 ;
+ - U26 SAEDRVT14_AO22_0P75 ;
+ - U27 SAEDRVT14_AO22_0P75 ;
+ - U28 SAEDRVT14_AO22_0P75 ;
+ - U29 SAEDRVT14_AO22_0P75 ;
+ - U30 SAEDRVT14_AO22_0P75 ;
+ - U31 SAEDRVT14_AO22_0P75 ;
+END COMPONENTS
+PINS 19 ;      
+ - clk + NET clk + DIRECTION INPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 30 2350 ) W ;
+ - reset + NET reset + DIRECTION INPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 1517 4783 ) N ;
+ - device_control_write_enable + NET device_control_write_enable + DIRECTION INPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 1591 4783 ) N ;
+ - device_control_data[7] + NET device_control_data[7] + DIRECTION INPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 1073 4783 ) N ;
+ - device_control_data[6] + NET device_control_data[6] + DIRECTION INPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 4558 2650 ) E ;
+ - device_control_data[5] + NET device_control_data[5] + DIRECTION INPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 1221 4783 ) N ;
+ - device_control_data[4] + NET device_control_data[4] + DIRECTION INPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 2405 4783 ) N ;
+ - device_control_data[3] + NET device_control_data[3] + DIRECTION INPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 2849 17 ) S ;
+ - device_control_data[2] + NET device_control_data[2] + DIRECTION INPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 30 1850 ) W ;
+ - device_control_data[1] + NET device_control_data[1] + DIRECTION INPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 30 3250 ) W ;
+ - device_control_data[0] + NET device_control_data[0] + DIRECTION INPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 30 2450 ) W ;
+ - thread_count[7] + NET thread_count[7] + DIRECTION OUTPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 2109 4783 ) N ;
+ - thread_count[6] + NET thread_count[6] + DIRECTION OUTPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 4558 2950 ) E ;
+ - thread_count[5] + NET thread_count[5] + DIRECTION OUTPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 30 2550 ) W ;
+ - thread_count[4] + NET thread_count[4] + DIRECTION OUTPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 2701 4783 ) N ;
+ - thread_count[3] + NET thread_count[3] + DIRECTION OUTPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 4558 1650 ) E ;
+ - thread_count[2] + NET thread_count[2] + DIRECTION OUTPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 1517 17 ) S ;
+ - thread_count[1] + NET thread_count[1] + DIRECTION OUTPUT + USE SIGNAL + LAYER M3 ( -17 -17 ) ( 17 17 ) + PLACED ( 1887 4783 ) N ;
+ - thread_count[0] + NET thread_count[0] + DIRECTION OUTPUT + USE SIGNAL + LAYER M4 ( -30 -30 ) ( 30 30 ) + PLACED ( 30 1650 ) W ;
+END PINS
+END DESIGN

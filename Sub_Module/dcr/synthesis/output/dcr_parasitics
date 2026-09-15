@@ -1,0 +1,299 @@
+*SPEF "IEEE 1481-1999"
+*DESIGN "dcr"
+*DATE "Mon Jul  6 11:14:32 2026"
+*VENDOR "SYNOPSYS INC"
+*PROGRAM "Synopsys Design Compiler (R) NXT cmos"
+*VERSION "T-2022.03-SP4"
+*DESIGN_FLOW "SYNTHESIS"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1.0 NS
+*C_UNIT 1.0 PF
+*R_UNIT 1.0 KOHM
+*L_UNIT 1.0 HENRY
+
+*PORTS
+
+clk I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+reset I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_write_enable I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[7\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[6\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[5\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[4\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[3\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[2\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[1\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+device_control_data\[0\] I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+thread_count\[7\] O *L 4.000e-03 *S 3.750e-02 3.164e-02 
+thread_count\[6\] O *L 4.000e-03 *S 3.408e-02 2.880e-02 
+thread_count\[5\] O *L 4.000e-03 *S 3.506e-02 2.961e-02 
+thread_count\[4\] O *L 4.000e-03 *S 3.397e-02 2.870e-02 
+thread_count\[3\] O *L 4.000e-03 *S 3.394e-02 2.868e-02 
+thread_count\[2\] O *L 4.000e-03 *S 3.514e-02 2.968e-02 
+thread_count\[1\] O *L 4.000e-03 *S 3.471e-02 2.932e-02 
+thread_count\[0\] O *L 4.000e-03 *S 3.393e-02 2.867e-02 
+
+*R_NET clk 6.017e-03
+*DRIVER clk
+*CELL NULL
+*C2_R1_C1 3.008e-03 1.918e-02 3.008e-03 
+*LOADS
+*RC dcr_reg_reg\[0\]:CK 1.775e-05
+*RC dcr_reg_reg\[7\]:CK 3.375e-05
+*RC dcr_reg_reg\[1\]:CK 1.866e-05
+*RC dcr_reg_reg\[2\]:CK 2.625e-05
+*RC dcr_reg_reg\[3\]:CK 2.585e-05
+*RC dcr_reg_reg\[4\]:CK 3.441e-05
+*RC dcr_reg_reg\[5\]:CK 1.752e-05
+*RC dcr_reg_reg\[6\]:CK 2.668e-05
+*END
+
+*R_NET reset 1.106e-03
+*DRIVER reset
+*CELL NULL
+*C2_R1_C1 5.531e-04 3.415e-03 5.531e-04 
+*LOADS
+*RC U22:A 1.003e-06
+*RC U23:A1 1.954e-06
+*END
+
+*R_NET device_control_write_enable 1.121e-03
+*DRIVER device_control_write_enable
+*CELL NULL
+*C2_R1_C1 5.604e-04 2.357e-03 5.604e-04 
+*LOADS
+*RC U22:B 7.788e-07
+*RC U23:A2 1.500e-06
+*END
+
+*R_NET device_control_data\[7\] 5.471e-04
+*DRIVER device_control_data\[7\]
+*CELL NULL
+*C2_R1_C1 2.735e-04 2.588e-03 2.735e-04 
+*LOADS
+*RC U28:A2 1.261e-06
+*END
+
+*R_NET device_control_data\[6\] 5.963e-04
+*DRIVER device_control_data\[6\]
+*CELL NULL
+*C2_R1_C1 2.981e-04 3.288e-03 2.981e-04 
+*LOADS
+*RC U25:A2 1.656e-06
+*END
+
+*R_NET device_control_data\[5\] 5.758e-04
+*DRIVER device_control_data\[5\]
+*CELL NULL
+*C2_R1_C1 2.879e-04 3.518e-03 2.879e-04 
+*LOADS
+*RC U26:A2 1.748e-06
+*END
+
+*R_NET device_control_data\[4\] 5.378e-04
+*DRIVER device_control_data\[4\]
+*CELL NULL
+*C2_R1_C1 2.689e-04 2.297e-03 2.689e-04 
+*LOADS
+*RC U27:A2 1.112e-06
+*END
+
+*R_NET device_control_data\[3\] 6.137e-04
+*DRIVER device_control_data\[3\]
+*CELL NULL
+*C2_R1_C1 3.068e-04 4.970e-03 3.068e-04 
+*LOADS
+*RC U29:A2 2.531e-06
+*END
+
+*R_NET device_control_data\[2\] 6.033e-04
+*DRIVER device_control_data\[2\]
+*CELL NULL
+*C2_R1_C1 3.016e-04 3.748e-03 3.016e-04 
+*LOADS
+*RC U30:A2 1.896e-06
+*END
+
+*R_NET device_control_data\[1\] 6.070e-04
+*DRIVER device_control_data\[1\]
+*CELL NULL
+*C2_R1_C1 3.035e-04 3.762e-03 3.035e-04 
+*LOADS
+*RC U31:A2 1.908e-06
+*END
+
+*R_NET device_control_data\[0\] 5.374e-04
+*DRIVER device_control_data\[0\]
+*CELL NULL
+*C2_R1_C1 2.687e-04 2.083e-03 2.687e-04 
+*LOADS
+*RC U24:A2 1.008e-06
+*END
+
+*R_NET thread_count\[7\] 5.186e-03
+*DRIVER dcr_reg_reg\[7\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.593e-03 1.966e-02 2.593e-03 
+*LOADS
+*RC U28:B2 3.629e-05
+*RC thread_count\[7\] 6.865e-05
+*END
+
+*R_NET thread_count\[6\] 4.711e-03
+*DRIVER dcr_reg_reg\[6\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.355e-03 6.015e-03 2.355e-03 
+*LOADS
+*RC U25:B2 9.537e-06
+*RC thread_count\[6\] 7.166e-06
+*END
+
+*R_NET thread_count\[5\] 4.847e-03
+*DRIVER dcr_reg_reg\[5\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.424e-03 1.046e-02 2.424e-03 
+*LOADS
+*RC U26:B2 1.882e-05
+*RC thread_count\[5\] 3.056e-05
+*END
+
+*R_NET thread_count\[4\] 4.695e-03
+*DRIVER dcr_reg_reg\[4\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.347e-03 5.583e-03 2.347e-03 
+*LOADS
+*RC U27:B2 8.324e-06
+*RC thread_count\[4\] 1.747e-05
+*END
+
+*R_NET thread_count\[3\] 4.691e-03
+*DRIVER dcr_reg_reg\[3\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.346e-03 5.202e-03 2.346e-03 
+*LOADS
+*RC U29:B2 7.384e-06
+*RC thread_count\[3\] 6.381e-06
+*END
+
+*R_NET thread_count\[2\] 4.858e-03
+*DRIVER dcr_reg_reg\[2\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.429e-03 1.065e-02 2.429e-03 
+*LOADS
+*RC U30:B2 1.685e-05
+*RC thread_count\[2\] 1.906e-05
+*END
+
+*R_NET thread_count\[1\] 4.798e-03
+*DRIVER dcr_reg_reg\[1\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.399e-03 8.996e-03 2.399e-03 
+*LOADS
+*RC U31:B2 9.046e-06
+*RC thread_count\[1\] 2.384e-05
+*END
+
+*R_NET thread_count\[0\] 4.690e-03
+*DRIVER dcr_reg_reg\[0\]:Q
+*CELL SAEDRVT14_FDP_V2_0P5
+*C2_R1_C1 2.345e-03 6.077e-03 2.345e-03 
+*LOADS
+*RC U24:B2 1.109e-05
+*RC thread_count\[0\] 2.004e-05
+*END
+
+*R_NET n1 5.721e-04
+*DRIVER U24:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 2.861e-04 5.676e-03 2.861e-04 
+*LOADS
+*RC dcr_reg_reg\[0\]:D 2.512e-06
+*END
+
+*R_NET n2 4.075e-04
+*DRIVER U31:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 2.038e-04 8.820e-04 2.038e-04 
+*LOADS
+*RC dcr_reg_reg\[1\]:D 3.419e-07
+*END
+
+*R_NET n3 5.654e-04
+*DRIVER U30:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 2.827e-04 5.662e-03 2.827e-04 
+*LOADS
+*RC dcr_reg_reg\[2\]:D 2.493e-06
+*END
+
+*R_NET n4 3.934e-04
+*DRIVER U29:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 1.967e-04 4.084e-04 1.967e-04 
+*LOADS
+*RC dcr_reg_reg\[3\]:D 1.564e-07
+*END
+
+*R_NET n5 4.020e-04
+*DRIVER U27:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 2.010e-04 5.843e-04 2.010e-04 
+*LOADS
+*RC dcr_reg_reg\[4\]:D 2.254e-07
+*END
+
+*R_NET n6 6.055e-04
+*DRIVER U26:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 3.027e-04 7.179e-03 3.027e-04 
+*LOADS
+*RC dcr_reg_reg\[5\]:D 3.257e-06
+*END
+
+*R_NET n7 4.341e-04
+*DRIVER U25:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 2.170e-04 1.706e-03 2.170e-04 
+*LOADS
+*RC dcr_reg_reg\[6\]:D 6.765e-07
+*END
+
+*R_NET n8 8.951e-04
+*DRIVER U28:X
+*CELL SAEDRVT14_AO22_0P75
+*C2_R1_C1 4.475e-04 1.470e-02 4.475e-04 
+*LOADS
+*RC dcr_reg_reg\[7\]:D 8.088e-06
+*END
+
+*R_NET n11 4.249e-03
+*DRIVER U23:X
+*CELL SAEDRVT14_NR2_MM_1
+*C2_R1_C1 2.124e-03 1.282e-02 2.124e-03 
+*LOADS
+*RC U24:B1 1.852e-05
+*RC U25:B1 1.100e-05
+*RC U26:B1 9.913e-06
+*RC U27:B1 1.838e-06
+*RC U28:B1 8.854e-06
+*RC U29:B1 1.387e-05
+*RC U30:B1 1.572e-05
+*RC U31:B1 1.264e-05
+*END
+
+*R_NET n12 3.441e-03
+*DRIVER U22:X
+*CELL SAEDRVT14_AN2B_MM_1
+*C2_R1_C1 1.720e-03 1.273e-02 1.720e-03 
+*LOADS
+*RC U24:A1 1.256e-05
+*RC U25:A1 1.092e-05
+*RC U26:A1 5.638e-06
+*RC U27:A1 3.550e-06
+*RC U28:A1 4.786e-06
+*RC U29:A1 1.322e-05
+*RC U30:A1 1.031e-05
+*RC U31:A1 7.833e-06
+*END

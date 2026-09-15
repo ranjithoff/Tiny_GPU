@@ -1,0 +1,100 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dcr
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 11:14:32 2026
+****************************************
+
+ * Some/all delay information is back-annotated.
+Wire Load Model Mode: Inactive.
+
+  Startpoint: reset (input port clocked by clock)
+  Endpoint: dcr_reg_reg[7]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: in2reg
+  Path Type: max
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  input external delay                                    0.75       0.75 f    
+  reset (in)                                              0.00       0.75 f    
+  U22/X (SAEDRVT14_AN2B_MM_1)                             0.03 *     0.78 r    0.72
+  U28/X (SAEDRVT14_AO22_0P75)                             0.04 *     0.83 r    0.72
+  dcr_reg_reg[7]/D (SAEDRVT14_FDP_V2_0P5)                 0.00 *     0.83 r    0.72
+  data arrival time                                                  0.83      
+
+  clock clock (rise edge)                                 1.00       1.00      
+  clock network delay (ideal)                             0.00       1.00      
+  dcr_reg_reg[7]/CK (SAEDRVT14_FDP_V2_0P5)                0.00       1.00 r    
+  library setup time                                     -0.02       0.98      
+  data required time                                                 0.98      
+  ------------------------------------------------------------------------------------
+  data required time                                                 0.98      
+  data arrival time                                                 -0.83      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                        0.15      
+
+
+  Startpoint: dcr_reg_reg[7]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: thread_count[7]
+            (output port clocked by clock)
+  Path Group: reg2out
+  Path Type: max
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  dcr_reg_reg[7]/CK (SAEDRVT14_FDP_V2_0P5)                0.00       0.00 r    0.72
+  dcr_reg_reg[7]/Q (SAEDRVT14_FDP_V2_0P5)                 0.09       0.09 r    0.72
+  thread_count[7] (out)                                   0.00 *     0.09 r    
+  data arrival time                                                  0.09      
+
+  clock clock (rise edge)                                 1.00       1.00      
+  clock network delay (ideal)                             0.00       1.00      
+  output external delay                                  -0.75       0.25      
+  data required time                                                 0.25      
+  ------------------------------------------------------------------------------------
+  data required time                                                 0.25      
+  data arrival time                                                 -0.09      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                        0.16      
+
+
+  Startpoint: dcr_reg_reg[7]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: dcr_reg_reg[7]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: reg2reg
+  Path Type: max
+
+  Point                                                   Incr       Path      Voltage
+  ------------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00      
+  clock network delay (ideal)                             0.00       0.00      
+  dcr_reg_reg[7]/CK (SAEDRVT14_FDP_V2_0P5)                0.00       0.00 r    0.72
+  dcr_reg_reg[7]/Q (SAEDRVT14_FDP_V2_0P5)                 0.09       0.09 r    0.72
+  U28/X (SAEDRVT14_AO22_0P75)                             0.05 *     0.14 r    0.72
+  dcr_reg_reg[7]/D (SAEDRVT14_FDP_V2_0P5)                 0.00 *     0.14 r    0.72
+  data arrival time                                                  0.14      
+
+  clock clock (rise edge)                                 1.00       1.00      
+  clock network delay (ideal)                             0.00       1.00      
+  dcr_reg_reg[7]/CK (SAEDRVT14_FDP_V2_0P5)                0.00       1.00 r    
+  library setup time                                     -0.02       0.98      
+  data required time                                                 0.98      
+  ------------------------------------------------------------------------------------
+  data required time                                                 0.98      
+  data arrival time                                                 -0.14      
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                        0.84      
+
+
+1

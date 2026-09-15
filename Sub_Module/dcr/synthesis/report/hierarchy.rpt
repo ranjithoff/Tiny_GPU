@@ -1,0 +1,18 @@
+ 
+****************************************
+Report : hierarchy
+Design : dcr
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 11:14:32 2026
+****************************************
+
+dcr
+    SAEDRVT14_AN2B_MM_1          saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_AO22_0P75          saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_FDP_V2_0P5         saed14rvt_base_ss0p72v25c
+                                                 0.72
+    SAEDRVT14_NR2_MM_1           saed14rvt_base_ss0p72v25c
+                                                 0.72
+1

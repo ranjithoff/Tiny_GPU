@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : dcr
+Version: T-2022.03-SP4
+Date   : Mon Jul  6 11:14:32 2026
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p72v25c.db)
+
+Number of ports:                           19
+Number of nets:                            29
+Number of cells:                           18
+Number of combinational cells:             10
+Number of sequential cells:                 8
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       4
+
+Combinational area:                  4.884000
+Buf/Inv area:                        0.000000
+Noncombinational area:               7.459200
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                    12.343200
+Total area:                 undefined
+1
