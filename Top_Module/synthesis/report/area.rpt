@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : area
+Design : gpu
+Version: T-2022.03-SP4
+Date   : Tue Jul  7 10:01:44 2026
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_ss0p585v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p585v25c.db)
+    saed14lvt_base_ss0p585v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/base/saed14lvt_base_ss0p585v25c.db)
+    saed14lvt_dlvl_ss0p585v25c_i0p72v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/dlvl/saed14lvt_dlvl_ss0p585v25c_i0p72v.db)
+    saed14rvt_cg_ss0p585v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/cg/saed14rvt_cg_ss0p585v25c.db)
+    saed14lvt_ulvl_ss0p72v25c_i0p585v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/ulvl/saed14lvt_ulvl_ss0p72v25c_i0p585v.db)
+    saed14rvt_ulvl_ss0p72v25c_i0p585v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/ulvl/saed14rvt_ulvl_ss0p72v25c_i0p585v.db)
+    saed14rvt_dlvl_ss0p585v25c_i0p72v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/dlvl/saed14rvt_dlvl_ss0p585v25c_i0p72v.db)
+    saed14lvt_base_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/base/saed14lvt_base_ss0p72v25c.db)
+    saed14rvt_base_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p72v25c.db)
+    saed14rvt_cg_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/cg/saed14rvt_cg_ss0p72v25c.db)
+
+Number of ports:                         8070
+Number of nets:                         55723
+Number of cells:                        48257
+Number of combinational cells:          42049
+Number of sequential cells:              5253
+Number of macros/black boxes:             386
+Number of buf/inv:                       6910
+Number of references:                     355
+
+Combinational area:              18959.288221
+Buf/Inv area:                     1554.177586
+Noncombinational area:            4969.869533
+Macro/Black Box area:              466.466386
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 24395.624140
+Total area:                 undefined
+1

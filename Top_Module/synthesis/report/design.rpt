@@ -1,0 +1,83 @@
+ 
+****************************************
+Report : design
+Design : gpu
+Version: T-2022.03-SP4
+Date   : Tue Jul  7 10:01:44 2026
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    saed14rvt_base_ss0p585v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p585v25c.db)
+    saed14lvt_base_ss0p585v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/base/saed14lvt_base_ss0p585v25c.db)
+    saed14lvt_dlvl_ss0p585v25c_i0p72v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/dlvl/saed14lvt_dlvl_ss0p585v25c_i0p72v.db)
+    saed14rvt_cg_ss0p585v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/cg/saed14rvt_cg_ss0p585v25c.db)
+    saed14lvt_ulvl_ss0p72v25c_i0p585v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/ulvl/saed14lvt_ulvl_ss0p72v25c_i0p585v.db)
+    saed14rvt_ulvl_ss0p72v25c_i0p585v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/ulvl/saed14rvt_ulvl_ss0p72v25c_i0p585v.db)
+    saed14rvt_dlvl_ss0p585v25c_i0p72v (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/dlvl/saed14rvt_dlvl_ss0p585v25c_i0p72v.db)
+    saed14lvt_base_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/base/saed14lvt_base_ss0p72v25c.db)
+    saed14rvt_base_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p72v25c.db)
+    saed14rvt_cg_ss0p72v25c (File: /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/cg/saed14rvt_cg_ss0p72v25c.db)
+
+Local Link Library:
+
+    {/home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/cg/saed14lvt_cg_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/iso/saed14lvt_iso_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/pg/saed14lvt_pg_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/ret/saed14lvt_ret_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/base/saed14lvt_base_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/pg/saed14rvt_pg_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/ret/saed14rvt_ret_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/cg/saed14rvt_cg_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/iso/saed14rvt_iso_ss0p72v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/cg/saed14lvt_cg_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/iso/saed14lvt_iso_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/pg/saed14lvt_pg_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/ret/saed14lvt_ret_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/base/saed14lvt_base_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/pg/saed14rvt_pg_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/ret/saed14rvt_ret_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/cg/saed14rvt_cg_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/iso/saed14rvt_iso_ss0p585v25c.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/ulvl/saed14lvt_ulvl_ss0p72v25c_i0p585v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/dlvl/saed14lvt_dlvl_ss0p585v25c_i0p72v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/ulvl/saed14rvt_ulvl_ss0p72v25c_i0p585v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/dlvl/saed14rvt_dlvl_ss0p585v25c_i0p72v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/ulvl/saed14lvt_ulvl_ss0p585v25c_i0p585v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_LVT/liberty/nldm/dlvl/saed14lvt_dlvl_ss0p585v25c_i0p585v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/ulvl/saed14rvt_ulvl_ss0p585v25c_i0p585v.db, /home1/SAED14_EDK/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/dlvl/saed14rvt_dlvl_ss0p585v25c_i0p585v.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : max
+    Library : saed14lvt_base_ss0p72v25c
+    Process :   0.50
+    Temperature :  25.00
+    Voltage :   0.72
+    Interconnect Model : balanced_tree
+
+Min Operating Conditions:
+
+
+    Operating Condition Name : min
+    Library : saed14rvt_base_ss0p585v25c
+    Process :   0.50
+    Temperature :  25.00
+    Voltage :  0.585
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading used.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    DesignWare
+
+Design Parameters:
+
+    None specified.
+1

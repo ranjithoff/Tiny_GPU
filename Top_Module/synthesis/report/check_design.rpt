@@ -1,0 +1,454 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP4
+Date:        Tue Jul  7 09:45:07 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    135
+    Unconnected ports (LINT-28)                                   127
+    Constant outputs (LINT-52)                                      8
+
+Cells                                                             102
+    Connected to power or ground (LINT-32)                        101
+    Nets connected to multiple pins on same cell (LINT-33)          1
+
+Nets                                                               93
+    Unloaded nets (LINT-2)                                         93
+--------------------------------------------------------------------------------
+
+Warning: In design 'gpu', net 'net6598' driven by pin 'C56792/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6597' driven by pin 'C56736/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6596' driven by pin 'C56713/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6595' driven by pin 'C56657/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6594' driven by pin 'C56634/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6593' driven by pin 'C56578/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6592' driven by pin 'C56555/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6591' driven by pin 'C56499/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6590' driven by pin 'C56476/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6589' driven by pin 'C56420/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6588' driven by pin 'C56397/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6587' driven by pin 'C56341/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6586' driven by pin 'C56318/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6585' driven by pin 'C56262/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6584' driven by pin 'C56239/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6583' driven by pin 'C56183/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6582' driven by pin 'C56160/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6581' driven by pin 'C56104/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6580' driven by pin 'C56081/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6579' driven by pin 'C56025/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6578' driven by pin 'C56002/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6577' driven by pin 'C55946/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6576' driven by pin 'C55923/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6575' driven by pin 'C55867/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6574' driven by pin 'C55844/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6573' driven by pin 'C55788/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6572' driven by pin 'C55765/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6571' driven by pin 'C55709/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6570' driven by pin 'C55686/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6569' driven by pin 'C55630/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6568' driven by pin 'C55607/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'net6567' driven by pin 'C55599/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][0]' driven by pin 'program_memory_controller/mem_write_data[0][0]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][1]' driven by pin 'program_memory_controller/mem_write_data[0][1]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][2]' driven by pin 'program_memory_controller/mem_write_data[0][2]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][3]' driven by pin 'program_memory_controller/mem_write_data[0][3]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][4]' driven by pin 'program_memory_controller/mem_write_data[0][4]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][5]' driven by pin 'program_memory_controller/mem_write_data[0][5]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][6]' driven by pin 'program_memory_controller/mem_write_data[0][6]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][7]' driven by pin 'program_memory_controller/mem_write_data[0][7]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][8]' driven by pin 'program_memory_controller/mem_write_data[0][8]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][9]' driven by pin 'program_memory_controller/mem_write_data[0][9]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][10]' driven by pin 'program_memory_controller/mem_write_data[0][10]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][11]' driven by pin 'program_memory_controller/mem_write_data[0][11]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][12]' driven by pin 'program_memory_controller/mem_write_data[0][12]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][13]' driven by pin 'program_memory_controller/mem_write_data[0][13]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][14]' driven by pin 'program_memory_controller/mem_write_data[0][14]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_data_nc[0][15]' driven by pin 'program_memory_controller/mem_write_data[0][15]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][0]' driven by pin 'program_memory_controller/mem_write_address[0][0]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][1]' driven by pin 'program_memory_controller/mem_write_address[0][1]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][2]' driven by pin 'program_memory_controller/mem_write_address[0][2]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][3]' driven by pin 'program_memory_controller/mem_write_address[0][3]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][4]' driven by pin 'program_memory_controller/mem_write_address[0][4]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][5]' driven by pin 'program_memory_controller/mem_write_address[0][5]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][6]' driven by pin 'program_memory_controller/mem_write_address[0][6]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_addr_nc[0][7]' driven by pin 'program_memory_controller/mem_write_address[0][7]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_mem_wr_valid_nc[0]' driven by pin 'program_memory_controller/mem_write_valid[0]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_wr_ready_nc[0]' driven by pin 'program_memory_controller/consumer_write_ready[0]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_wr_ready_nc[1]' driven by pin 'program_memory_controller/consumer_write_ready[1]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_wr_ready_nc[2]' driven by pin 'program_memory_controller/consumer_write_ready[2]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'pgm_wr_ready_nc[3]' driven by pin 'program_memory_controller/consumer_write_ready[3]' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].alu_inst/net8328' driven by pin 'cores[0].core_instance/thread_units[1].alu_inst/C163/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].alu_inst/net8327' driven by pin 'cores[0].core_instance/thread_units[1].alu_inst/C159/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].alu_inst/net8326' driven by pin 'cores[0].core_instance/thread_units[1].alu_inst/C158/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].alu_inst/net8325' driven by pin 'cores[0].core_instance/thread_units[1].alu_inst/C157/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].alu_inst/net8324' driven by pin 'cores[0].core_instance/thread_units[1].alu_inst/C138/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].pc_inst/net8607' driven by pin 'cores[0].core_instance/thread_units[1].pc_inst/C150/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].pc_inst/net8606' driven by pin 'cores[0].core_instance/thread_units[1].pc_inst/C149/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].alu_inst/net8651' driven by pin 'cores[0].core_instance/thread_units[2].alu_inst/C163/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].alu_inst/net8650' driven by pin 'cores[0].core_instance/thread_units[2].alu_inst/C159/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].alu_inst/net8649' driven by pin 'cores[0].core_instance/thread_units[2].alu_inst/C158/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].alu_inst/net8648' driven by pin 'cores[0].core_instance/thread_units[2].alu_inst/C157/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].alu_inst/net8647' driven by pin 'cores[0].core_instance/thread_units[2].alu_inst/C138/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].pc_inst/net8930' driven by pin 'cores[0].core_instance/thread_units[2].pc_inst/C150/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].pc_inst/net8929' driven by pin 'cores[0].core_instance/thread_units[2].pc_inst/C149/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].alu_inst/net8974' driven by pin 'cores[0].core_instance/thread_units[3].alu_inst/C163/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].alu_inst/net8973' driven by pin 'cores[0].core_instance/thread_units[3].alu_inst/C159/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].alu_inst/net8972' driven by pin 'cores[0].core_instance/thread_units[3].alu_inst/C158/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].alu_inst/net8971' driven by pin 'cores[0].core_instance/thread_units[3].alu_inst/C157/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].alu_inst/net8970' driven by pin 'cores[0].core_instance/thread_units[3].alu_inst/C138/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].pc_inst/net9253' driven by pin 'cores[0].core_instance/thread_units[3].pc_inst/C150/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].pc_inst/net9252' driven by pin 'cores[0].core_instance/thread_units[3].pc_inst/C149/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].alu_inst/net8005' driven by pin 'cores[0].core_instance/thread_units[0].alu_inst/C163/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].alu_inst/net8004' driven by pin 'cores[0].core_instance/thread_units[0].alu_inst/C159/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].alu_inst/net8003' driven by pin 'cores[0].core_instance/thread_units[0].alu_inst/C158/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].alu_inst/net8002' driven by pin 'cores[0].core_instance/thread_units[0].alu_inst/C157/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].alu_inst/net8001' driven by pin 'cores[0].core_instance/thread_units[0].alu_inst/C138/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].registers_inst/net8269' driven by pin 'cores[0].core_instance/thread_units[0].registers_inst/C1288/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].pc_inst/net8284' driven by pin 'cores[0].core_instance/thread_units[0].pc_inst/C150/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[0].pc_inst/net8283' driven by pin 'cores[0].core_instance/thread_units[0].pc_inst/C149/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[1].registers_inst/net8592' driven by pin 'cores[0].core_instance/thread_units[1].registers_inst/C1288/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[2].registers_inst/net8915' driven by pin 'cores[0].core_instance/thread_units[2].registers_inst/C1288/Z' has no loads. (LINT-2)
+Warning: In design 'gpu', net 'cores[0].core_instance/thread_units[3].registers_inst/net9238' driven by pin 'cores[0].core_instance/thread_units[3].registers_inst/C1288/Z' has no loads. (LINT-2)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[3][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[2][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[1][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_address[0][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][15]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][14]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][13]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][12]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][11]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][10]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][9]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][8]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[3][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][15]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][14]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][13]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][12]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][11]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][10]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][9]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][8]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[2][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][15]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][14]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][13]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][12]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][11]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][10]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][9]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][8]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[1][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][15]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][14]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][13]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][12]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][11]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][10]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][9]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][8]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'controller_ADDR_BITS8_DATA_BITS16_NUM_CONSUMERS4_NUM_CHANNELS1_WRITE_ENABLE0', port 'consumer_write_data[0][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'decoded_mem_read_enable' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'decoded_mem_write_enable' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[3][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[2][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][7]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][6]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][5]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][4]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][3]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][2]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][1]' is not connected to any nets. (LINT-28)
+Warning: In design 'scheduler_THREADS_PER_BLOCK4', port 'next_pc[1][0]' is not connected to any nets. (LINT-28)
+Warning: In design 'pc_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8', port 'alu_out[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'pc_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8', port 'alu_out[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'pc_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8', port 'alu_out[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'pc_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8', port 'alu_out[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'pc_DATA_MEM_DATA_BITS8_PROGRAM_MEM_ADDR_BITS8', port 'alu_out[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_valid[3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_valid[2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_valid[1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_valid[0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[3][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[2][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[1][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_address[0][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][15]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][14]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][13]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][12]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][11]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][10]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][9]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][8]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[3][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][15]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][14]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][13]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][12]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][11]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][10]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][9]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][8]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[2][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][15]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][14]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][13]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][12]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][11]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][10]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][9]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][8]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[1][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][15]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][14]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][13]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][12]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][11]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][10]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][9]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][8]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][7]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][6]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][5]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][4]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][3]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][2]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][1]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'consumer_write_data[0][0]' is connected to logic 0. 
+Warning: In design 'gpu', a pin on submodule 'program_memory_controller' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'mem_write_ready[0]' is connected to logic 0. 
+Warning: In design 'gpu', the same net is connected to more than one pin on submodule 'program_memory_controller'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'consumer_write_valid[3]', 'consumer_write_valid[2]'', 'consumer_write_valid[1]', 'consumer_write_valid[0]', 'consumer_write_address[3][7]', 'consumer_write_address[3][6]', 'consumer_write_address[3][5]', 'consumer_write_address[3][4]', 'consumer_write_address[3][3]', 'consumer_write_address[3][2]', 'consumer_write_address[3][1]', 'consumer_write_address[3][0]', 'consumer_write_address[2][7]', 'consumer_write_address[2][6]', 'consumer_write_address[2][5]', 'consumer_write_address[2][4]', 'consumer_write_address[2][3]', 'consumer_write_address[2][2]', 'consumer_write_address[2][1]', 'consumer_write_address[2][0]', 'consumer_write_address[1][7]', 'consumer_write_address[1][6]', 'consumer_write_address[1][5]', 'consumer_write_address[1][4]', 'consumer_write_address[1][3]', 'consumer_write_address[1][2]', 'consumer_write_address[1][1]', 'consumer_write_address[1][0]', 'consumer_write_address[0][7]', 'consumer_write_address[0][6]', 'consumer_write_address[0][5]', 'consumer_write_address[0][4]', 'consumer_write_address[0][3]', 'consumer_write_address[0][2]', 'consumer_write_address[0][1]', 'consumer_write_address[0][0]', 'consumer_write_data[3][15]', 'consumer_write_data[3][14]', 'consumer_write_data[3][13]', 'consumer_write_data[3][12]', 'consumer_write_data[3][11]', 'consumer_write_data[3][10]', 'consumer_write_data[3][9]', 'consumer_write_data[3][8]', 'consumer_write_data[3][7]', 'consumer_write_data[3][6]', 'consumer_write_data[3][5]', 'consumer_write_data[3][4]', 'consumer_write_data[3][3]', 'consumer_write_data[3][2]', 'consumer_write_data[3][1]', 'consumer_write_data[3][0]', 'consumer_write_data[2][15]', 'consumer_write_data[2][14]', 'consumer_write_data[2][13]', 'consumer_write_data[2][12]', 'consumer_write_data[2][11]', 'consumer_write_data[2][10]', 'consumer_write_data[2][9]', 'consumer_write_data[2][8]', 'consumer_write_data[2][7]', 'consumer_write_data[2][6]', 'consumer_write_data[2][5]', 'consumer_write_data[2][4]', 'consumer_write_data[2][3]', 'consumer_write_data[2][2]', 'consumer_write_data[2][1]', 'consumer_write_data[2][0]', 'consumer_write_data[1][15]', 'consumer_write_data[1][14]', 'consumer_write_data[1][13]', 'consumer_write_data[1][12]', 'consumer_write_data[1][11]', 'consumer_write_data[1][10]', 'consumer_write_data[1][9]', 'consumer_write_data[1][8]', 'consumer_write_data[1][7]', 'consumer_write_data[1][6]', 'consumer_write_data[1][5]', 'consumer_write_data[1][4]', 'consumer_write_data[1][3]', 'consumer_write_data[1][2]', 'consumer_write_data[1][1]', 'consumer_write_data[1][0]', 'consumer_write_data[0][15]', 'consumer_write_data[0][14]', 'consumer_write_data[0][13]', 'consumer_write_data[0][12]', 'consumer_write_data[0][11]', 'consumer_write_data[0][10]', 'consumer_write_data[0][9]', 'consumer_write_data[0][8]', 'consumer_write_data[0][7]', 'consumer_write_data[0][6]', 'consumer_write_data[0][5]', 'consumer_write_data[0][4]', 'consumer_write_data[0][3]', 'consumer_write_data[0][2]', 'consumer_write_data[0][1]', 'consumer_write_data[0][0]', 'mem_write_ready[0]'.
+Warning: In design 'dispatch', output port 'core_block_id[3][7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[3][6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[2][7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[2][6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[1][7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[1][6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[0][7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dispatch', output port 'core_block_id[0][6]' is connected directly to 'logic 0'. (LINT-52)
+1
